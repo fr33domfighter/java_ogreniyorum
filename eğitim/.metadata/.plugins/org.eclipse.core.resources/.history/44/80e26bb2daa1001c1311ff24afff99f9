@@ -1,0 +1,35 @@
+package w2ders;
+
+import java.util.Scanner;
+
+public class hafta2ders {
+	
+	public static void main(String[]args){
+		
+		/* \t println içinde araya 1 tab boþluk koyar
+	        math library ile matematiksel iþlemler yapýlabilir 
+	    */
+		
+		Scanner kb = new Scanner(System.in);
+		String kelime = "BTK Akademi" ;
+		System.out.println(kelime.length()); // stringin uzunluðunu söyler
+		System.out.println(kelime.toUpperCase()); // stringin bütün karakterlerini büyük yapar
+		System.out.println(kelime.toLowerCase()); // stringin bütün karakterlerini küçük yapar
+		System.out.println("Bir cümle girin");
+		String cumle = kb.nextLine();
+		System.out.println("Girilen cümle " + cumle);
+		System.out.println("Cümlenin büyük harfli hali " + cumle.toUpperCase());
+		System.out.println("Cümlenin küçük harfli hali " + cumle.toLowerCase());
+		System.out.println("Cümlenin 4. karakteri" + cumle.charAt(3)); // stringin hangi indexini istersek onu yazdýrmamýzý saðlar
+		char ilk_index = cumle.charAt(0);
+		System.out.println("Ýlk karakter " + ilk_index);
+		int son_index = cumle.length()-1 ;
+		char son_karakter = cumle.charAt(son_index);
+		System.out.println("Son karakter " + son_karakter);
+		
+	
+		
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package hafta4;
+
+import java.util.*;
+
+public class ders1 {
+	
+public static void main(String[]args) {
+	
+	
+	//int sayac = 0;	 
+	//while (sayac <=5 ) {
+		//System.out.println("a = " + sayac + "*");
+		//sayac++;
+		
+	//}
+	
+	Scanner klavye = new Scanner(System.in);
+	String kelime = klavye.nextLine();
+	System.out.println("Ýsminizi girin ");
+	int uzunluk = kelime.length()-1;
+	int sayac1 = 0; 
+	while (uzunluk > sayac1) {
+		System.out.println(kelime.charAt(sayac1));
+		sayac1++;
+	}
+	
+	
+	}
+
+}

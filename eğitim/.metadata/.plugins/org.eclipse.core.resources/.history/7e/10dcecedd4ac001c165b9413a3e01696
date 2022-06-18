@@ -1,0 +1,18 @@
+package hafta4;
+
+import java.util.*;
+
+public class ders1 {
+	
+public static void main(String[]args) {
+	
+	
+	int sayac = 0;	 
+	while (sayac <=5 ) {
+		System.out.println("a = " + sayac + "*");
+		sayac++;
+		
+	}
+	}
+
+}

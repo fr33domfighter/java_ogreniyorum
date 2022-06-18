@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\BTK_JavaEgitim\eðitim\.metadata\.plugins\org.eclipse.jdt.core
+43853888.index
+1865797976.index

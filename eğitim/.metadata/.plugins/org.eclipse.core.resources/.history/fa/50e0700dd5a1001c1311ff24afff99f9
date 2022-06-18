@@ -1,0 +1,19 @@
+package w2ders;
+
+public class hafta2ders {
+	
+	public static void main(String[]args){
+		
+		/* \t println içinde araya 1 tab boþluk koyar
+	        math library ile matematiksel iþlemler yapýlabilir 
+	        
+	        	
+	    */
+		
+		String kelime = "btk akademi " ;
+		System.out.println(kelime.length());
+		
+		
+	}
+
+}

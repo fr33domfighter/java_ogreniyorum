@@ -1,0 +1,20 @@
+package w2ders;
+
+public class hafta2ders {
+	
+	public static void main(String[]args){
+		
+		/* \t println içinde araya 1 tab boþluk koyar
+	        math library ile matematiksel iþlemler yapýlabilir 
+	    */
+		
+		String kelime = "BTK Akademi" ;
+		System.out.println(kelime.length()); // stringin uzunluðunu söyler
+		System.out.println(kelime.toUpperCase()); // stringin bütün karakterlerini büyük yapar
+		System.out.println(kelime.toLowerCase()); // stringin bütün karakterlerini küçük yapar
+	
+		
+		
+	}
+
+}
